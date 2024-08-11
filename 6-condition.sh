@@ -3,7 +3,7 @@
 
 NUM=$1
 
-if [$NUM -ge 16]
+if [ $NUM -ge 16 ]
 then 
    echo "Given number is greater than 16"
 else

@@ -2,8 +2,8 @@
 
 MOVIES=("Murari" "Arjun" "Pokiri" "Guntur Karam")
 
-echo "$MOVIES[0]"
+echo "print ${MOVIES[0]}"
 
-echo "$MOVIES[2]"
+echo "print ${MOVIES[2]}"
 
-echo "$MOVIES[$@]" #===> print all values
+echo "print ${MOVIES[@]}" #===> print all values
